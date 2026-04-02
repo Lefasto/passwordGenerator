@@ -5,10 +5,11 @@ body {
 }
 
 #content {
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
     background-color: #1F2937;
     border: solid;
+    border-radius: 20px; 
 }
 
 #heading {
@@ -33,7 +34,7 @@ hr {
     color: #34d399;
 }
 
-#btn-el {
+.btn {
     margin-top: 50px;
     margin-left: 50px;
     background-color: #34d399;
@@ -47,7 +48,7 @@ hr {
     margin: 35px 50px;
 }
 
-#fieldOne {
+#fieldOne-el {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +59,7 @@ hr {
     border-radius: 6px;
 }
 
-#fieldTwo {
+#fieldTwo-el {
     display: flex;
     justify-content: center;
     align-items: center;
