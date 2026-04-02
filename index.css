@@ -1,3 +1,70 @@
 body {
+    font-family: "Inter", sans-serif;
     margin: 0;
+    color: white;
+}
+
+#content {
+    width: 500px;
+    height: 500px;
+    background-color: #1F2937;
+    border: solid;
+}
+
+#heading {
+    font-family: "Karla", sans-serif;
+    margin-top: 115px;
+    margin-left: 50px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin-left: 50px;
+}
+
+hr {
+    margin: 35px 50px;
+}
+
+.green {
+    color: #34d399;
+}
+
+#btn-el {
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #34d399;
+    color: white;
+    border-radius: 6px;
+    padding: 9px 18px;
+}
+
+.passwords {
+    display: flex;
+    margin: 35px 50px;
+}
+
+#fieldOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 210px;
+    margin-right: 10px;
+    background-color: #273549;
+    border-radius: 6px;
+}
+
+#fieldTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 210px;
+    margin-left: 10px;
+    background-color: #273549;
+    border-radius: 6px;
 }
